@@ -1,0 +1,13 @@
+body {
+  background-color:var(--green-color);
+  text-align: center;
+  color:var(--white-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /*View Port Height que significa que tomara el alto de la pantalla*/
+}
+
+.content_paypal a{
+  color: var(--black-color);
+}

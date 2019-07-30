@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,700i&display=swap');
+/*----------- Varibles */
+
+:root{
+--green-color:#159A8F;
+--white-color:white;
+--black-color:black;
+/* Tipografia */
+--font-normal:12px;
+
+/* Espaciado */
+--space:10px;
+
+/* Box-Shadow */
+--box:0 0 1px 0px #eaeaea;
+
+}
+/*----------- Varibles */
+
+
+
+html,body {
+  padding:0px;
+  margin: 0px;
+  font-size: var(--font-normal);
+  font-family: 'Open Sans', sans-serif;
+}
+
+nav {
+  display:flex;
+  background-color: var(--green-color);
+  padding: var(--space);
+  color:var(--white-color);
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav li {
+  padding-left: 20px;
+  list-style: none;
+}
+
+nav li a {
+  color: var(--black-color);
+  text-decoration: none;
+}
+
+nav li a:hover {
+  color:var(--white-color);
+}
+
+label {
+  font-size: var(--font-normal);
+}
+/*---- Main ----*/
+.main_section{
+  padding: 15%;
+  text-align: center;
+}
+
+.products {
+  background-image: url("../img/curve.png");
+  height: 50px;
+  background-size: cover;
+  background-position: top center;
+  padding: 20%;
+  display: flex;
+}
+
+.product {
+  padding: var(--space);
+  margin-top: -250px
+}
+
+.product .content{
+  background-color: white;
+  padding: 15px;
+  box-shadow: var(--box);
+}
+
+.img_content {
+  text-align: center;
+}
+
+.main_button{
+  background-color: var(--green-color);
+  width: 100%;
+  padding: var(--space);
+  font-size: var(--font-normal);
+  color: white;
+  border:0;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+.main_button:hover{
+  background-color: #10504b;
+}
+
+section.content {
+  display: flex;
+  padding: 5%;
+  justify-content: center;
+}
+
+section .box {
+  width: 250px;
+  height: 220px;
+  padding: 15px;
+}
+
+.img_content_2 img {
+  width: 138px;
+  height: 113px;
+}
+
+.img_content_2 {
+    text-align: center;
+}
+
+hr {
+  opacity: .2;
+
+}
+
+h1 {
+  text-align: center;
+}
+
+section.content_menciones {
+  display: flex;
+  padding: 1%;
+  justify-content: center;
+}
+
+section .box-menciones {
+  width: 239px;
+  height: 220px;
+  border-radius: 2px;
+  border: 1px solid rgba(239, 239, 239, 0.62);
+  box-shadow: 1px 2px 7px #d8d8d8;
+  margin-right: 20px;
+}
+
+section .img_content_3 img {
+    width: 239px;
+}
+
+section .box-menciones h3,p {
+  padding: 5px;
+}
+
+.producto- {
+  height: 180px;
+}
+
+.padding- {
+  padding: 5%;
+}
+
+.modulo_pago {
+  box-shadow: var(--box);
+  background-color: var(--white-color);
+  padding: var(--space);
+  margin: var(--space);
+}
+
+.modulo_pago_img {
+  max-width: 150px; /*su maximo de ancho, no sea mayor a 150px*/
+  margin: auto;
+}
+
+.data {
+  margin-top: var(--space);
+  margin-bottom: var(--space);
+  width: 100%;
+  height: 35px;
+  border-radius: 2px;
+  border: 1px solid var(--black-color);
+  box-sizing: border-box; /*Box-sizing, lo que hace es definir de donde va tomar referencia, este 100% de ancho, usaremos Border-Box, quien le dice que tome de referencia, tanto el padding, como el borde del elemento que lo contiene*/
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  font-size: var(--normal);
+  background-color: var(--black-color);
+  padding: var(--space);
+  color: var(--white-color);
+}
+
+.contact a{
+  color:var(--green-color);
+}

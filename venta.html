@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="css/grid.css">
+  <link rel="stylesheet" href="css/animation.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/mobile.css">
+  <link rel="stylesheet" href="css/normalize.css">
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Producto Digital</title>
+</head>
+<body>
+  <!-- aqui empieza el nav -->
+<nav class="fadeInDown">
+  <div class="brand_img">
+    <a href="index.html">
+      <img src="img/Logo.png" alt="">
+    </a>
+  </div>
+  <div class="nav_options">
+    <ul>
+      <li><a href="#">Faqs</a> </li>
+      <li><a href="#">Descricion y Producto</a></li>
+    </ul>
+  </div>
+</nav>
+<!-- aqui termina el nav -->
+
+<div class="container">
+
+<div class="row padding-">
+  <div class="col-4 modulo_pago">
+    <div class="modulo_pago_img">
+      <img src="img/box2.png" alt="">
+    </div>
+    <h3>Producto 1</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+  </div>
+  <div class="col-8 modulo_pago">
+    <!--<form action=”URL_DONDE_QUIERO_ENVIAR_LO_DATOS”>
+    <label for=”nombre”>Nombre:</label>
+    <input type=”text” id=”nombre” name=”user_name” />
+
+    <label for=“edad“>Edad:</label>
+    <input type=”number” id=”edad” name=”user_age” />
+
+    <button type=”submit”>Enviar mis datos</button>
+  </form>-->
+  <form action="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=LXWXSDYLQRU6J" method="post">
+    <label for="name">Nombre</label>
+    <br>
+    <input type="text" name="name" value="" class="data">
+    <br>
+    <label for="email">E-mail</label>
+    <br>
+    <input type="text" name="email" value="" class="data">
+    <br>
+    <label for="phone">Teléfono</label>
+    <br>
+    <input type="text" name="phone" value="" class="data">
+    <br>
+    <input type="submit" class="main_button" name="submit" value="Confirmar Pago">
+  </form>
+  </div>
+</div>
+
+
+</div>
+<footer>
+  <div class="option">Terminos y condicones</div>
+  <div class="option">Telefono: 123456789</div>
+
+</footer>
+<script src="js/script.js"></script>
+</body>
+</html>
